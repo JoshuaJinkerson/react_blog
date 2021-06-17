@@ -1,0 +1,12 @@
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 12rem;
+  width: 10rem;
+  background-color: lightsteelblue;
+  padding: 2em 5em;
+}
+
+button {
+  margin-left: 80%;
+  float: right;
+}
