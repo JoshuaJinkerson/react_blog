@@ -11,11 +11,11 @@ import {BlogPostThread} from '../blogPostList/blogPostComponent'
     return (
       <div className="App">
         <h1>Personal Blog</h1>
-        <header className="App-header">
+
           <BlogComment className="newPost"/>
+
           <BlogPostThread className="blogThread"/>
-        </header>
-      </div>
+        </div>
     )
   }
 };

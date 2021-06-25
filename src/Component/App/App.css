@@ -14,7 +14,7 @@ html,
   grid-template-rows: 20% auto;
   grid-template-areas: "textarea ";
   grid-template-areas:
-    "header header header"
+    "head head head"
     "newPost blogThread blogThread";
 }
 
@@ -27,6 +27,6 @@ html,
 }
 
 h1 {
-  grid-area: header;
+  grid-area: head;
   text-align: center;
 }

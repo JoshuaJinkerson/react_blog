@@ -11,6 +11,7 @@ export class BlogComment extends React.Component{
 
         this.handleTitleChange =this.handleTitleChange.bind(this)
         this.handlePostChange =this.handlePostChange.bind(this)
+        this.handleSubmit=this.handleSubmit.bind(this)
 
     }
 
@@ -24,6 +25,10 @@ export class BlogComment extends React.Component{
         this.setState({
             title: e.target.value,
         })    
+    }
+
+    handleSubmit(e){
+
     }
 
 
@@ -44,7 +49,7 @@ export class BlogComment extends React.Component{
                 >
                 </textarea>
                 <br/>
-                <button type='submit'>Submit</button>
+                <button type='submit' onClick={this.handleSubmit}>Submit</button>
                 </form>
             </div>
         )
