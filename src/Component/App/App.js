@@ -13,7 +13,6 @@ import {BlogPostThread} from '../blogPostList/blogPostComponent'
         <h1>Personal Blog</h1>
 
           <BlogComment className="newPost"/>
-
           <BlogPostThread className="blogThread"/>
         </div>
     )
